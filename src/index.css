@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: netflix-sans-regular;
+    src: url("./assets/fonts/NetflixSans-Regular.woff2");
+  }
+  @font-face {
+    font-family: netflix-sans-medium;
+    src: url("./assets/fonts/NetflixSans-Medium.woff2");
+  }
+  @font-face {
+    font-family: netflix-sans-light;
+    src: url("./assets/fonts/NetflixSans-Light.woff2");
+  }
+  @font-face {
+    font-family: netflix-sans-bold;
+    src: url("./assets/fonts/NetflixSans-Bold.woff2");
+  }
+
+  body {
+    font-family: netflix-sans-regular, Arial, Helvetica, sans-serif;
+  }
+  
+}
